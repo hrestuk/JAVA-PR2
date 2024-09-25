@@ -20,7 +20,7 @@ public class Main
         int transactionsCount = TransactionAnalyzer.countTransactionsByMonth(monthYear, transactions);
         TransactionReportGenerator.printTransactionsCountByMonth(monthYear, transactionsCount);
 
-        // -
+        // ---
         List<Transaction> topExpenses = TransactionAnalyzer.findTopExpenses(transactions);
         TransactionReportGenerator.printTopExpensesReport(topExpenses);
 
